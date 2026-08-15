@@ -1,4 +1,4 @@
-local ok,A=pcall(function()return loadstring(game:HttpGet('https://sirius.me'..'n/rayfield'))()end)
+local ok,A=pcall(function()return loadstring(game:HttpGet('https://sirius.me'..'nu/rayfield'))()end)
 if not ok or not A then warn('Rayfield yuklenemedi',A) return end
 local B=game.Players.LocalPlayer
 local C=game:GetService('UserInputService')
